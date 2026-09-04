@@ -27,7 +27,7 @@
 - Built for **backtesting**, **algorithmic trading** and **quantitative finance** workflows
 - **Weekly refresh** — [getdata.finance](https://getdata.finance) every **Saturday, 8am UTC+0**; GitHub `5m` sample updated in sync
 
-> **Sample on GitHub** · `EURUSD_5m.csv` (11,091 rows, `2026-07-09` -> `2026-09-02`, 1.09 MB). **Full archive on [getdata.finance](https://getdata.finance/datasets/eurusd)** — **337,130** `5m` rows (full `1m`: 1,685,501), **11 timeframes**, `2022-02-27` -> `2026-09-02`.
+> **Sample on GitHub** · `EURUSD_5m.csv` (11,088 rows, `2026-07-09` -> `2026-09-02`, 1.09 MB). **Full archive on [getdata.finance](https://getdata.finance/datasets/eurusd)** — **337,130** `5m` rows (full `1m`: 1,685,501), **11 timeframes**, `2022-02-27` -> `2026-09-02`.
 
 ## Download sample
 
@@ -45,7 +45,7 @@ Full archive & live chart on getdata.finance: **[https://getdata.finance/dataset
 |---|--:|---|
 | Instrument | Euro / US Dollar · Forex | Euro / US Dollar · Forex |
 | Timeframes | `5m` (sample) | **11** — 1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W |
-| 5m rows | 11,091 | **337,130** |
+| 5m rows | 11,088 | **337,130** |
 | Size | 1.09 MB | full ZIP on [getdata.finance](https://getdata.finance/datasets/eurusd) |
 | Period | `2026-07-09` -> `2026-09-02` | `2022-02-27` -> `2026-09-02` |
 | File | `EURUSD_5m.csv` | ZIP on [getdata.finance](https://getdata.finance/datasets/eurusd) |
@@ -75,11 +75,11 @@ First and latest rows from the GitHub sample **`EURUSD_5m.csv`**:
 
 | datetime | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-07-09T13:50:00+00:00 | 1.15522 | 1.15536 | 1.15509 | 1.1551 | 1009 |
-| 2026-07-09T13:55:00+00:00 | 1.1551 | 1.15544 | 1.1551 | 1.15543 | 627 |
-| 2026-07-09T14:00:00+00:00 | 1.15543 | 1.15612 | 1.15543 | 1.15611 | 1026 |
 | 2026-07-09T14:05:00+00:00 | 1.15611 | 1.15612 | 1.1555 | 1.15552 | 1232 |
 | 2026-07-09T14:10:00+00:00 | 1.15552 | 1.15578 | 1.1555 | 1.1556 | 977 |
+| 2026-07-09T14:15:00+00:00 | 1.1556 | 1.15561 | 1.15515 | 1.15521 | 972 |
+| 2026-07-09T14:20:00+00:00 | 1.15521 | 1.15561 | 1.15519 | 1.15555 | 843 |
+| 2026-07-09T14:25:00+00:00 | 1.15555 | 1.15555 | 1.1553 | 1.15542 | 642 |
 
 **Last rows**
 
