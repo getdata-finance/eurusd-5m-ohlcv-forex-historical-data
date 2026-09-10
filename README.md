@@ -1,6 +1,6 @@
 # EURUSD 5m OHLCV Forex Historical Data — Free Sample
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-337_130_rows-blue)](https://getdata.finance/datasets/eurusd) [![Updated](https://img.shields.io/badge/weekly_update-every_Saturday_8am_UTC-green)](https://getdata.finance) [![Full data on getdata.finance](https://img.shields.io/badge/download-getdata.finance-orange)](https://getdata.finance/datasets/eurusd)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-338_568_rows-blue)](https://getdata.finance/datasets/eurusd) [![Updated](https://img.shields.io/badge/weekly_update-every_Saturday_8am_UTC-green)](https://getdata.finance) [![Full data on getdata.finance](https://img.shields.io/badge/download-getdata.finance-orange)](https://getdata.finance/datasets/eurusd)
 
 ### -> [**Download the full EURUSD dataset on getdata.finance**](https://getdata.finance/datasets/eurusd)
 
@@ -23,11 +23,11 @@
 
 - **Ultra high-quality 5m OHLCV** for **Euro / US Dollar** (Forex)
 - **Clean CSV schema** — `datetime, open, high, low, close, volume` (no gaps in formatting)
-- **Free evaluation sample** on GitHub (`5m`) · **11 timeframes** on [getdata.finance](https://getdata.finance/datasets/eurusd) · **337,130** `5m` rows in the full archive
+- **Free evaluation sample** on GitHub (`5m`) · **11 timeframes** on [getdata.finance](https://getdata.finance/datasets/eurusd) · **338,568** `5m` rows in the full archive
 - Built for **backtesting**, **algorithmic trading** and **quantitative finance** workflows
 - **Weekly refresh** — [getdata.finance](https://getdata.finance) every **Saturday, 8am UTC+0**; GitHub `5m` sample updated in sync
 
-> **Sample on GitHub** · `EURUSD_5m.csv` (11,088 rows, `2026-07-09` -> `2026-09-02`, 1.09 MB). **Full archive on [getdata.finance](https://getdata.finance/datasets/eurusd)** — **337,130** `5m` rows (full `1m`: 1,685,501), **11 timeframes**, `2022-02-27` -> `2026-09-02`.
+> **Sample on GitHub** · `EURUSD_5m.csv` (37,528 rows, `2026-03-10` -> `2026-09-09`, 3.61 MB). **Full archive on [getdata.finance](https://getdata.finance/datasets/eurusd)** — **338,568** `5m` rows (full `1m`: 1,685,501), **11 timeframes**, `2022-02-27` -> `2026-09-09`.
 
 ## Download sample
 
@@ -45,9 +45,9 @@ Full archive & live chart on getdata.finance: **[https://getdata.finance/dataset
 |---|--:|---|
 | Instrument | Euro / US Dollar · Forex | Euro / US Dollar · Forex |
 | Timeframes | `5m` (sample) | **11** — 1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W |
-| 5m rows | 11,088 | **337,130** |
-| Size | 1.09 MB | full ZIP on [getdata.finance](https://getdata.finance/datasets/eurusd) |
-| Period | `2026-07-09` -> `2026-09-02` | `2022-02-27` -> `2026-09-02` |
+| 5m rows | 37,528 | **338,568** |
+| Size | 3.61 MB | full ZIP on [getdata.finance](https://getdata.finance/datasets/eurusd) |
+| Period | `2026-03-10` -> `2026-09-09` | `2022-02-27` -> `2026-09-09` |
 | File | `EURUSD_5m.csv` | ZIP on [getdata.finance](https://getdata.finance/datasets/eurusd) |
 | Coverage report | — | [EURUSD coverage](https://getdata.finance/coverage/eurusd) |
 | Updates | Weekly (Saturday, 8am UTC+0) — GitHub sample | Weekly (Saturday, 8am UTC+0) — all timeframes |
@@ -75,21 +75,21 @@ First and latest rows from the GitHub sample **`EURUSD_5m.csv`**:
 
 | datetime | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-07-09T14:05:00+00:00 | 1.15611 | 1.15612 | 1.1555 | 1.15552 | 1232 |
-| 2026-07-09T14:10:00+00:00 | 1.15552 | 1.15578 | 1.1555 | 1.1556 | 977 |
-| 2026-07-09T14:15:00+00:00 | 1.1556 | 1.15561 | 1.15515 | 1.15521 | 972 |
-| 2026-07-09T14:20:00+00:00 | 1.15521 | 1.15561 | 1.15519 | 1.15555 | 843 |
-| 2026-07-09T14:25:00+00:00 | 1.15555 | 1.15555 | 1.1553 | 1.15542 | 642 |
+| 2026-03-10T18:35:00+00:00 | 1.17193 | 1.17201 | 1.17081 | 1.17113 | 4012 |
+| 2026-03-10T18:40:00+00:00 | 1.17113 | 1.17119 | 1.17063 | 1.17082 | 2243 |
+| 2026-03-10T18:45:00+00:00 | 1.17082 | 1.1715 | 1.17052 | 1.17122 | 1810 |
+| 2026-03-10T18:50:00+00:00 | 1.17122 | 1.17154 | 1.1709 | 1.17103 | 1762 |
+| 2026-03-10T18:55:00+00:00 | 1.17103 | 1.17117 | 1.17061 | 1.17068 | 1190 |
 
 **Last rows**
 
 | datetime | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-09-02T01:40:00+00:00 | 1.15777 | 1.15786 | 1.15775 | 1.1578 | 295 |
-| 2026-09-02T01:45:00+00:00 | 1.1578 | 1.15784 | 1.15771 | 1.15782 | 332 |
-| 2026-09-02T01:50:00+00:00 | 1.15782 | 1.15783 | 1.1577 | 1.15777 | 468 |
-| 2026-09-02T01:55:00+00:00 | 1.15777 | 1.15792 | 1.15771 | 1.15789 | 326 |
-| 2026-09-02T02:00:00+00:00 | 1.15789 | 1.1579 | 1.15781 | 1.15781 | 63 |
+| 2026-09-09T01:40:00+00:00 | 1.1629 | 1.16297 | 1.16286 | 1.16287 | 311 |
+| 2026-09-09T01:45:00+00:00 | 1.16287 | 1.16304 | 1.16287 | 1.16293 | 246 |
+| 2026-09-09T01:50:00+00:00 | 1.16293 | 1.16308 | 1.16292 | 1.16303 | 329 |
+| 2026-09-09T01:55:00+00:00 | 1.16303 | 1.16314 | 1.163 | 1.16312 | 371 |
+| 2026-09-09T02:00:00+00:00 | 1.16312 | 1.16312 | 1.1631 | 1.16311 | 23 |
 
 ## Schema
 
@@ -154,7 +154,7 @@ print(pf.stats())
 
 ## Download full data
 
-The complete **EURUSD** archive on **[getdata.finance](https://getdata.finance/datasets/eurusd)** includes **11 OHLCV timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W) — **337,130** rows at `5m`, plus all other timeframes in the same ZIP.
+The complete **EURUSD** archive on **[getdata.finance](https://getdata.finance/datasets/eurusd)** includes **11 OHLCV timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W) — **338,568** rows at `5m`, plus all other timeframes in the same ZIP.
 
 **[-> Get the full EURUSD dataset on getdata.finance](https://getdata.finance/datasets/eurusd)**
 
